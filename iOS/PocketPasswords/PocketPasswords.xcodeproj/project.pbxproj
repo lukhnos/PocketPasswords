@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A10B0391AC377F000FEB99C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A10B0381AC377F000FEB99C /* InfoPlist.strings */; };
+		6A10B03B1AC4C77000FEB99C /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A10B03A1AC4C76F00FEB99C /* Settings.bundle */; };
+		6A963AA21AC2BEA4009A2B25 /* PPStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A963AA11AC2BEA4009A2B25 /* PPStore.m */; };
+		6ABC6DC51AC10CD8009E2977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC6DC41AC10CD8009E2977 /* AppDelegate.swift */; };
+		6ABC6DC71AC10CD8009E2977 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC6DC61AC10CD8009E2977 /* MasterViewController.swift */; };
+		6ABC6DC91AC10CD8009E2977 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC6DC81AC10CD8009E2977 /* DetailViewController.swift */; };
+		6ABC6DCC1AC10CD8009E2977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABC6DCA1AC10CD8009E2977 /* Main.storyboard */; };
+		6ABC6DCE1AC10CD8009E2977 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABC6DCD1AC10CD8009E2977 /* Images.xcassets */; };
+		6ABC6DD11AC10CD8009E2977 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ABC6DCF1AC10CD8009E2977 /* LaunchScreen.xib */; };
+		6ABC6DDD1AC10CD8009E2977 /* PocketPasswordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC6DDC1AC10CD8009E2977 /* PocketPasswordsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ABC6DD71AC10CD8009E2977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABC6DB71AC10CD8009E2977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABC6DBE1AC10CD8009E2977;
+			remoteInfo = PocketPasswords;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A10B0381AC377F000FEB99C /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		6A10B03A1AC4C76F00FEB99C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		6A963AA01AC2BEA4009A2B25 /* PocketPasswords-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketPasswords-Bridging-Header.h"; sourceTree = "<group>"; };
+		6A963AA11AC2BEA4009A2B25 /* PPStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPStore.m; sourceTree = "<group>"; };
+		6A963AA31AC2C026009A2B25 /* PPStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPStore.h; sourceTree = "<group>"; };
+		6ABC6DBF1AC10CD8009E2977 /* PocketPasswords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketPasswords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABC6DC31AC10CD8009E2977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABC6DC41AC10CD8009E2977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ABC6DC61AC10CD8009E2977 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		6ABC6DC81AC10CD8009E2977 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6ABC6DCB1AC10CD8009E2977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ABC6DCD1AC10CD8009E2977 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6ABC6DD01AC10CD8009E2977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6ABC6DD61AC10CD8009E2977 /* PocketPasswordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketPasswordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABC6DDB1AC10CD8009E2977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABC6DDC1AC10CD8009E2977 /* PocketPasswordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketPasswordsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ABC6DBC1AC10CD8009E2977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABC6DD31AC10CD8009E2977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ABC6DB61AC10CD8009E2977 = {
+			isa = PBXGroup;
+			children = (
+				6ABC6DC11AC10CD8009E2977 /* PocketPasswords */,
+				6ABC6DD91AC10CD8009E2977 /* PocketPasswordsTests */,
+				6ABC6DC01AC10CD8009E2977 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ABC6DC01AC10CD8009E2977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC6DBF1AC10CD8009E2977 /* PocketPasswords.app */,
+				6ABC6DD61AC10CD8009E2977 /* PocketPasswordsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ABC6DC11AC10CD8009E2977 /* PocketPasswords */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC6DC41AC10CD8009E2977 /* AppDelegate.swift */,
+				6ABC6DC61AC10CD8009E2977 /* MasterViewController.swift */,
+				6ABC6DC81AC10CD8009E2977 /* DetailViewController.swift */,
+				6ABC6DCA1AC10CD8009E2977 /* Main.storyboard */,
+				6ABC6DCD1AC10CD8009E2977 /* Images.xcassets */,
+				6ABC6DCF1AC10CD8009E2977 /* LaunchScreen.xib */,
+				6ABC6DC21AC10CD8009E2977 /* Supporting Files */,
+				6A963AA11AC2BEA4009A2B25 /* PPStore.m */,
+				6A963AA31AC2C026009A2B25 /* PPStore.h */,
+				6A963AA01AC2BEA4009A2B25 /* PocketPasswords-Bridging-Header.h */,
+				6A10B0381AC377F000FEB99C /* InfoPlist.strings */,
+				6A10B03A1AC4C76F00FEB99C /* Settings.bundle */,
+			);
+			path = PocketPasswords;
+			sourceTree = "<group>";
+		};
+		6ABC6DC21AC10CD8009E2977 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC6DC31AC10CD8009E2977 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ABC6DD91AC10CD8009E2977 /* PocketPasswordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC6DDC1AC10CD8009E2977 /* PocketPasswordsTests.swift */,
+				6ABC6DDA1AC10CD8009E2977 /* Supporting Files */,
+			);
+			path = PocketPasswordsTests;
+			sourceTree = "<group>";
+		};
+		6ABC6DDA1AC10CD8009E2977 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC6DDB1AC10CD8009E2977 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ABC6DBE1AC10CD8009E2977 /* PocketPasswords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABC6DE01AC10CD8009E2977 /* Build configuration list for PBXNativeTarget "PocketPasswords" */;
+			buildPhases = (
+				6ABC6DBB1AC10CD8009E2977 /* Sources */,
+				6ABC6DBC1AC10CD8009E2977 /* Frameworks */,
+				6ABC6DBD1AC10CD8009E2977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketPasswords;
+			productName = PocketPasswords;
+			productReference = 6ABC6DBF1AC10CD8009E2977 /* PocketPasswords.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ABC6DD51AC10CD8009E2977 /* PocketPasswordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABC6DE31AC10CD8009E2977 /* Build configuration list for PBXNativeTarget "PocketPasswordsTests" */;
+			buildPhases = (
+				6ABC6DD21AC10CD8009E2977 /* Sources */,
+				6ABC6DD31AC10CD8009E2977 /* Frameworks */,
+				6ABC6DD41AC10CD8009E2977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABC6DD81AC10CD8009E2977 /* PBXTargetDependency */,
+			);
+			name = PocketPasswordsTests;
+			productName = PocketPasswordsTests;
+			productReference = 6ABC6DD61AC10CD8009E2977 /* PocketPasswordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ABC6DB71AC10CD8009E2977 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Lukhnos Liu";
+				TargetAttributes = {
+					6ABC6DBE1AC10CD8009E2977 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					6ABC6DD51AC10CD8009E2977 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6ABC6DBE1AC10CD8009E2977;
+					};
+				};
+			};
+			buildConfigurationList = 6ABC6DBA1AC10CD8009E2977 /* Build configuration list for PBXProject "PocketPasswords" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ABC6DB61AC10CD8009E2977;
+			productRefGroup = 6ABC6DC01AC10CD8009E2977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ABC6DBE1AC10CD8009E2977 /* PocketPasswords */,
+				6ABC6DD51AC10CD8009E2977 /* PocketPasswordsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ABC6DBD1AC10CD8009E2977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABC6DCC1AC10CD8009E2977 /* Main.storyboard in Resources */,
+				6A10B0391AC377F000FEB99C /* InfoPlist.strings in Resources */,
+				6A10B03B1AC4C77000FEB99C /* Settings.bundle in Resources */,
+				6ABC6DD11AC10CD8009E2977 /* LaunchScreen.xib in Resources */,
+				6ABC6DCE1AC10CD8009E2977 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABC6DD41AC10CD8009E2977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ABC6DBB1AC10CD8009E2977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABC6DC91AC10CD8009E2977 /* DetailViewController.swift in Sources */,
+				6A963AA21AC2BEA4009A2B25 /* PPStore.m in Sources */,
+				6ABC6DC71AC10CD8009E2977 /* MasterViewController.swift in Sources */,
+				6ABC6DC51AC10CD8009E2977 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABC6DD21AC10CD8009E2977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABC6DDD1AC10CD8009E2977 /* PocketPasswordsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ABC6DD81AC10CD8009E2977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABC6DBE1AC10CD8009E2977 /* PocketPasswords */;
+			targetProxy = 6ABC6DD71AC10CD8009E2977 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ABC6DCA1AC10CD8009E2977 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABC6DCB1AC10CD8009E2977 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ABC6DCF1AC10CD8009E2977 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABC6DD01AC10CD8009E2977 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ABC6DDE1AC10CD8009E2977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ABC6DDF1AC10CD8009E2977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ABC6DE11AC10CD8009E2977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PocketPasswords/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PocketPasswords/PocketPasswords-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ABC6DE21AC10CD8009E2977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PocketPasswords/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PocketPasswords/PocketPasswords-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		6ABC6DE41AC10CD8009E2977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PocketPasswordsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketPasswords.app/PocketPasswords";
+			};
+			name = Debug;
+		};
+		6ABC6DE51AC10CD8009E2977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PocketPasswordsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketPasswords.app/PocketPasswords";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ABC6DBA1AC10CD8009E2977 /* Build configuration list for PBXProject "PocketPasswords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABC6DDE1AC10CD8009E2977 /* Debug */,
+				6ABC6DDF1AC10CD8009E2977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABC6DE01AC10CD8009E2977 /* Build configuration list for PBXNativeTarget "PocketPasswords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABC6DE11AC10CD8009E2977 /* Debug */,
+				6ABC6DE21AC10CD8009E2977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABC6DE31AC10CD8009E2977 /* Build configuration list for PBXNativeTarget "PocketPasswordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABC6DE41AC10CD8009E2977 /* Debug */,
+				6ABC6DE51AC10CD8009E2977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ABC6DB71AC10CD8009E2977 /* Project object */;
+}

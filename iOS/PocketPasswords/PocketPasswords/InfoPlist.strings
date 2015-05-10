@@ -1,0 +1,9 @@
+/*
+  InfoPlist.strings
+  PocketPasswords
+
+  Created by Lukhnos Liu on 3/26/15.
+  Copyright (c) 2015 Lukhnos Liu. All rights reserved.
+*/
+CFBundleName = "Pocket PWD";
+CFBundleDisplayName = "Pocket PWD";
