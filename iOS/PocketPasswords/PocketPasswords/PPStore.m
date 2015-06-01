@@ -56,12 +56,15 @@ uint8_t *PPDecrypt(NSString *path, NSString *passphrase)
     uint8_t hmacKey[32];
     uint8_t keyDerivationData[32];
 
-    memset(keyDerivationData, 0x00, sizeof(keyDerivationData));
+    size_t blockSize = 16;
+    memset(keyDerivationData, 0x00, blockSize);
+    memset(keyDerivationData + blockSize, 0x01, blockSize);
     status = CCCrypt(kCCEncrypt, kCCAlgorithmAES, kCCOptionECBMode, encodingKey, sizeof(encodingKey), NULL, keyDerivationData, sizeof(keyDerivationData), aesKey, sizeof(aesKey), &dataMoved);
     assert(status == 0);
     assert(dataMoved == sizeof(aesKey));
 
-    memset(keyDerivationData, 0x01, sizeof(keyDerivationData));
+    memset(keyDerivationData, 0x02, blockSize);
+    memset(keyDerivationData + blockSize, 0x03, blockSize);
     status = CCCrypt(kCCEncrypt, kCCAlgorithmAES, kCCOptionECBMode, encodingKey, sizeof(encodingKey), NULL, keyDerivationData, sizeof(keyDerivationData), hmacKey, sizeof(hmacKey), &dataMoved);
     assert(status == 0);
     assert(dataMoved == sizeof(aesKey));
